@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textViewProfileTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/profile"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageViewProImage"
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"
+        app:srcCompat="@drawable/ic_baseline_account" />
+
+    <TextView
+        android:id="@+id/textViewProName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/P_name" />
+
+    <TextView
+        android:id="@+id/textViewProGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/P_Gender"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"/>
+
+    <TextView
+        android:id="@+id/textViewProDob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/P_dob"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"/>
+
+    <TextView
+        android:id="@+id/textViewProAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/P_address"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"/>
+
+    <TextView
+        android:id="@+id/textViewProPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/p_phone"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp" />
+    <TextView
+        android:id="@+id/textViewP_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Email"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"/>
+
+    <Button
+        android:id="@+id/buttonEditProfile"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:backgroundTint="#00BCD4"
+        android:text="@string/p_editProfile"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"/>
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:backgroundTint="#00BCD4"
+        android:text="@string/p_back"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"/>
+
+
+
+</LinearLayout>

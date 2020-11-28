@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/cctvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CCTV Recorder"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:id="@+id/cctvlogo"
+        android:layout_width="174dp"
+        android:layout_marginStart="120dp"
+        android:layout_height="181dp"
+        android:src="@drawable/textcctv" />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/captureV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00BCD4"
+        android:text="Record Video"/>
+    <Button
+        android:id="@+id/playV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00BCD4"
+        android:text="Display Video"/>
+    <Button
+        android:id="@+id/videoBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00BCD4"
+        android:text="Back"/>
+
+</LinearLayout>

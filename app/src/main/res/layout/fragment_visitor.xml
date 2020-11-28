@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Visitor Management"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/imageViewVisitor"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ic_baseline_account" />
+
+    <Button
+        android:id="@+id/buttonAddRec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="100dp"
+        android:text="Add Visitor Record"/>
+
+    <Button
+        android:id="@+id/buttonViewRec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="View Visitor Record"
+        android:layout_marginTop="10dp" />
+    <Button
+        android:id="@+id/backFromVisit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Back to Home"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

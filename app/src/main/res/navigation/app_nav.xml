@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav"
+    tools:ignore="UnusedNavigation"
+    app:startDestination="@+id/nav_home2">
+
+    android:id="@+id/app_nav">
+    <fragment
+        android:id="@+id/nav_home2"
+        android:name="com.example.fyp4.staffui.Home2Fragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:label="@string/menu_logout"/>
+
+</navigation>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home2"
+            android:icon="@drawable/ic_baseline_home"
+            android:title="@string/menu_home"/>
+        <item
+            android:id="@+id/nav_StaffProfile"
+            android:icon="@drawable/ic_baseline_account"
+            android:title="@string/profile"/>
+
+        <item android:id="@+id/nav_visitorRec"
+            android:title="@string/v_recorder"/>
+
+        <item android:id="@+id/nav_cctv"
+            android:icon="@drawable/ic_baseline_camera"
+            android:title="@string/cctv_record"/>
+
+        <item android:id="@+id/nav_navigatePS"
+            android:icon="@drawable/ic_baseline_car"
+            android:title="Check Parking Slot"/>
+        <item
+            android:id="@+id/nav_log_out"
+            android:title="@string/menu_logout"/>
+
+    </group>
+
+
+</menu>

@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">My Residents App</string>
+    //navigation bar
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="v_recorder">Visitor Recorder</string>
+    <string name="cctv_record">CCTV Recorder</string>
+
+    //qr code
+    <string name="generate_qr">Generate QR code</string>
+
+    //first page
+    <string name="ResidentLogin">Resident Login</string>
+    <string name="StaffLogin">Staff Login</string>
+
+
+    //resident login
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+
+    //register
+
+    <string name="name">Name</string>
+    <string name="gender">Gender</string>
+    <string name="dob">Date of Birth</string>
+    <string name="address">Address</string>
+    <string name="phone_no">Phone No.</string>
+    <string name="comPass">Confirm Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="text1">Already have account? Login</string>
+    <string name="staff_reg">Staff Sign Up</string>
+    <string name="position">Position</string>
+
+    //Navigation
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_navigate">Navigate Parking Slot</string>
+    <string name="menu_payment">Pay Management Fees</string>
+    <string name="menu_generateQR">Generate QR</string>
+    <string name="menu_logout">Log Out</string>
+
+    //Profile
+    <string name="profile">Personal Profile</string>
+    <string name="P_name">Name:</string>
+    <string name="P_Gender">Gender:</string>
+    <string name="P_dob">Date of Birth:</string>
+    <string name="P_address">Address:</string>
+    <string name="p_phone">Phone No.</string>
+    <string name="p_editProfile">Edit Profile</string>
+    <string name="p_back">Back</string>
+
+    //edit profile
+    <string name="edit_profile">Edit Profile</string>
+    <string name="submit">Submit</string>
+    <string name="Add_picture">Add Photo</string>
+
+    //payment
+    <string name="payment_t">Payment</string>
+    <string name="mon_pay">Monthly Payment</string>
+    <string name="pay_id">Payment ID:</string>
+    <string name="house_no">House No:</string>
+    <string name="pay_desc">Payment Description</string>
+    <string name="ringgit">RM</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="py_now">Pay Now</string>
+
+    //add Visitor Rec
+    <string name="vname">Name</string>
+    <string name="vgender">Gender</string>
+    <string name="vDob">Date of Birth</string>
+    <string name="vDate">Visit Date</string>
+    <string name="vTime">Visit Time</string>
+    <string name="add_rec">Add Visitor Record</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

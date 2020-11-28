@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        tools:context=".Residentui.register">
+
+        <ImageView
+            android:id="@+id/imageViewlogoR"
+            android:layout_width="132dp"
+            android:layout_height="114dp"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/logo"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="15dp"
+            android:text="Welcome to MyResidentApp"
+            android:textSize="17dp"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/welcome2"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="15dp"
+            android:text="Sign Up to get more feature."
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="10dp"
+            android:ems="10"
+            android:hint="@string/name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextGender"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="10dp"
+            android:ems="10"
+            android:hint="@string/gender"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextDob"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="10dp"
+            android:ems="10"
+            android:hint="@string/dob"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/editTextAddress"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="10dp"
+            android:ems="10"
+            android:hint="@string/address"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="10dp"
+            android:ems="10"
+            android:hint="@string/phone_no"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextUsername"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="10dp"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/editTextPass"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="10dp"
+            android:ems="10"
+            android:hint="@string/pass"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#00BCD4"
+            android:text="@string/sign_up" />
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#00BCD4"
+            android:text="@string/cancel" />
+
+        <TextView
+            android:id="@+id/textViewreLogin"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/text1"
+            android:textColor="#204195"
+            android:textSize="18sp"/>
+
+
+
+        <ProgressBar
+            android:id="@+id/progressBarSignUp"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</ScrollView>

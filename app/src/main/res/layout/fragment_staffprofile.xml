@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textViewStaffProfileTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Staff Profile"
+        android:gravity="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewProSImage"
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        android:layout_marginTop="28dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_baseline_account" />
+
+    <TextView
+        android:id="@+id/textViewStaffName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/P_name" />
+
+    <TextView
+        android:id="@+id/textViewStaffGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/P_Gender" />
+
+    <TextView
+        android:id="@+id/textViewStaffDob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/P_dob" />
+
+    <TextView
+        android:id="@+id/textViewStaffPosition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"
+        android:text="Position" />
+
+
+    <TextView
+        android:id="@+id/textViewS_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Email"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"/>
+
+    <Button
+        android:id="@+id/buttonEditStaff"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:backgroundTint="#00BCD4"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/p_editProfile" />
+
+    <Button
+        android:id="@+id/buttonBackStaff"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="#00BCD4"
+        android:text="@string/p_back" />
+
+</LinearLayout>

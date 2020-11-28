@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Residentui.editProfileFragment">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textViewEditProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/edit_profile"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewProfileImage"
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"
+        app:srcCompat="@drawable/ic_baseline_account" />
+
+    <EditText
+        android:id="@+id/editTextProName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"
+        android:hint="@string/P_name"/>
+
+    <EditText
+        android:id="@+id/editTextP_Gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="@string/P_Gender"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"/>
+
+    <EditText
+        android:id="@+id/editTextP_Dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="@string/P_dob"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"/>
+
+    <EditText
+        android:id="@+id/editTextP_Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="@string/P_address"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"/>
+
+    <EditText
+        android:id="@+id/editTextP_Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="@string/p_phone"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"/>
+    <EditText
+        android:id="@+id/editTextP_EmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email" />
+
+    <Button
+        android:id="@+id/buttonEPSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="#00BCD4"
+        android:text="@string/submit" />
+
+    <Button
+        android:id="@+id/buttonEPCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="#00BCD4"
+        android:text="@string/cancel" />
+    </LinearLayout>
+
+</ScrollView>

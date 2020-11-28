@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context=".Residentui.login">
+
+
+        <TextView
+            android:id="@+id/textViewLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/ResidentLogin"
+            android:textSize="25dp"
+            />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_gravity="center"
+            android:layout_width="311dp"
+            android:layout_height="226dp"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/logo" />
+
+        <EditText
+            android:id="@+id/editTextUsername"
+            android:layout_width="333dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textPersonName" />
+
+        <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="333dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+        android:ems="10"
+        android:hint="@string/pass"
+        android:inputType="textPassword" />
+        <TextView
+            android:id="@+id/textForgetPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forget password?"
+            android:textColor="@color/colorPrimary"
+            android:gravity="right"/>
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="333dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#00BCD4"
+        android:layout_gravity="center"
+        android:text="@string/login" />
+
+    <TextView
+        android:id="@+id/textSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#00BCD4"
+        android:gravity="center"
+        android:text="No Account? Register Now"
+        android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/passLogintoStaff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Are You Staff?>>"
+            android:gravity="right"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"/>
+
+        <ProgressBar
+            android:id="@+id/progressBarlogin"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+</ScrollView>

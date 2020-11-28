@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/map">
+    <TextView
+        android:id="@+id/Cartitle"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Check Parking Availability"/>
+
+    <EditText
+        android:id="@+id/editTextCarPlat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Cartitle"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Car Plate"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <EditText
+        android:id="@+id/editTextCarBrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextCarPlat"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Car Brands"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <EditText
+        android:id="@+id/editTextCarColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextCarBrand"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Car Color"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <Button
+        android:id="@+id/backfromPark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextCarColor"
+        android:layout_marginTop="-1dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Cancel Navigation" />
+
+    <TextView
+        android:id="@+id/parkingSlot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/backfromPark"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="9dp"
+        android:text="Parking Slot"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/park1"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_below="@+id/parkingSlot"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="30dp"
+        android:background="#00FF00"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="Parking 1" />
+
+    <Button
+        android:id="@+id/park2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/parkingSlot"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="10dp"
+        android:background="#00FF00"
+        android:text="Parking 2" />
+
+    <Button
+        android:id="@+id/park3"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_below="@+id/park1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="5dp"
+        android:background="#00FF00"
+        android:text="Parking 3" />
+
+    <Button
+        android:id="@+id/park4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/park2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="10dp"
+        android:background="#00FF00"
+        android:text="Parking 4" />
+
+    <Button
+        android:id="@+id/park5"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_below="@+id/park3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="3dp"
+        android:background="#00FF00"
+        android:text="Parking 5" />
+
+    <Button
+        android:id="@+id/park6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/park4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="9dp"
+        android:background="#00FF00"
+        android:text="Parking 6" />
+
+    <Button
+        android:id="@+id/park7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/park5"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="3dp"
+        android:background="#00FF00"
+        android:text="Parking 7" />
+
+    <Button
+        android:id="@+id/park8"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/park6"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="9dp"
+        android:background="#00FF00"
+        android:text="Parking 8" />
+
+    <Button
+        android:id="@+id/park9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/park7"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="3dp"
+        android:background="#00FF00"
+        android:text="Parking 9" />
+
+    <Button
+        android:id="@+id/park11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/park9"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#00FF00"
+        android:text="Parking 11" />
+
+    <Button
+        android:id="@+id/park10"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/park8"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="9dp"
+        android:background="#00FF00"
+        android:text="Parking 10" />
+
+    <Button
+        android:id="@+id/park12"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/park10"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="10dp"
+        android:background="#00FF00"
+        android:text="Parking 12" />
+
+</RelativeLayout>

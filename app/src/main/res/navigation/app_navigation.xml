@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    tools:ignore="UnusedNavigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.fyp4.Residentui.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_profile"
+            app:destination="@id/nav_profile" />
+        <action
+            android:id="@+id/action_nav_home_to_paymentFragment"
+            app:destination="@id/paymentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.fyp4.Residentui.ProflleFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_generateQR"
+        android:name="com.example.fyp4.Residentui.GenerateqrFragment"
+        android:label="@string/menu_generateQR"
+        tools:layout="@layout/fragment_generate_qr"/>
+
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:label="@string/menu_logout"/>
+    <fragment
+        android:id="@+id/paymentFragment"
+        android:name="com.example.fyp4.Residentui.PaymentFragment"
+        android:label="PaymentFragment" >
+        <action
+            android:id="@+id/action_paymentFragment_to_paypalPayment2"
+            app:destination="@id/paypalPayment2" />
+        <action
+            android:id="@+id/action_paymentFragment_to_paypalPayment22"
+            app:destination="@id/paypalPayment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/checkParkingFragment"
+        android:name="com.example.fyp4.staffui.checkParkingFragment"
+        android:label="checkParkingFragment" />
+    <activity
+        android:id="@+id/paypalPayment2"
+        android:name="com.example.fyp4.Residentui.paypalPayment"
+        android:label="activity_paypal"
+        tools:layout="@layout/activity_paypal">
+        <action android:id="@+id/nav_to_paydetail"
+            app:destination="@+id/paymentDetail"/>
+    </activity>
+    <activity
+        android:id="@+id/paymentDetail"
+        android:name="com.example.fyp4.Residentui.PaymentDetail"
+        android:label="fragment_paymentdetail"
+        tools:layout="@layout/fragment_paymentdetail">
+        <action android:id="@+id/nav_to_Home"
+            app:destination="@+id/nav_home"/>
+    </activity>
+</navigation>

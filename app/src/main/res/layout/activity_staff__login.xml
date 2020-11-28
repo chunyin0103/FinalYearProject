@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context=".staffui.staff_Login">
+
+    <TextView
+        android:id="@+id/textViewStaffLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="@string/StaffLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="311dp"
+        android:layout_height="226dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/textViewStaffLogin"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/editTextStaffUsername"
+        android:layout_width="333dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textPersonName"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <EditText
+        android:id="@+id/editTextstaffPassword"
+        android:layout_width="333dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/pass"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/editTextStaffUsername" />
+        <TextView
+            android:id="@+id/textForgetStaffPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="Forget Password"
+            android:textSize="16dp"
+            android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/buttonStaffLogin"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#00BCD4"
+        android:text="@string/login"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/editTextstaffPassword" />
+
+    <TextView
+        android:id="@+id/textViewStaffSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#00BCD4"
+        android:text="No Account? Register Now"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/buttonStaffLogin"
+        android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/passLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Are You Resident?>>"
+            android:gravity="right"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"/>
+
+        <ProgressBar
+            android:id="@+id/progressBarStaffLogin"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+</ScrollView>

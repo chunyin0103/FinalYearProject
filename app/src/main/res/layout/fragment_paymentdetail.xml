@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Residentui.PaymentDetail">
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_marginTop="250dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/paySuccess"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/paysuccess"/>
+        <TextView
+            android:id="@+id/textSuccess"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#228B22"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Payment Successfully!"/>
+        <TextView
+            android:id="@+id/textID"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:paddingTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="id"/>
+        <TextView
+            android:id="@+id/textAmount"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Payment Amount"/>
+        <TextView
+            android:id="@+id/textStatus"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status"/>
+        <Button
+            android:id="@+id/buttonback"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="Back To Home"/>
+    </LinearLayout>
+
+</LinearLayout>
